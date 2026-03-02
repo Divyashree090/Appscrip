@@ -1,10 +1,10 @@
-# 🏭 Trade Opportunities API
+# Trade Opportunities API
 
 A FastAPI service that analyzes market data and provides AI-powered trade opportunity insights for Indian market sectors.
 
 ---
 
-## 📋 Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -19,7 +19,7 @@ A FastAPI service that analyzes market data and provides AI-powered trade opport
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 trade-opportunities-api/
@@ -49,7 +49,7 @@ trade-opportunities-api/
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 
@@ -89,7 +89,7 @@ API Docs: **http://localhost:8000/docs**
 
 ---
 
-## 🔌 API Usage
+## API Usage
 
 ### Step 1: Register
 
@@ -128,44 +128,44 @@ curl "http://localhost:8000/analyze/pharmaceuticals?format=markdown" \
 
 ---
 
-## 📝 Sample Report Structure
+## Sample Report Structure
 
 ```markdown
 # 🏭 Trade Opportunities Report: Pharmaceuticals Sector
 **Analysis Date:** January 15, 2025
 **Market:** India
 
-## 📊 Executive Summary
+## Executive Summary
 ...
 
-## 🌍 Sector Overview
+## Sector Overview
 ### Current Market Position
 ### Key Market Indicators
 
-## 📈 Trade Opportunities
+## Trade Opportunities
 ### 🟢 High-Priority Export Opportunities
 ### 🔵 Import Substitution Opportunities
 ### 🟡 Emerging Opportunities
 
-## ⚠️ Challenges & Risk Factors
+## Challenges & Risk Factors
 
-## 🏛️ Government Policies & Schemes
+## Government Policies & Schemes
 
-## 🏢 Key Players & Competitive Landscape
+## Key Players & Competitive Landscape
 
-## 💡 Strategic Recommendations
+## Strategic Recommendations
 ### For Exporters
 ### For Importers/Buyers
 ### For Investors
 
-## 📅 Outlook & Forecast
+## Outlook & Forecast
 
-## 📚 Data Sources & References
+## Data Sources & References
 ```
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
 | Feature | Implementation |
 |---|---|
@@ -179,7 +179,7 @@ curl "http://localhost:8000/analyze/pharmaceuticals?format=markdown" \
 
 ---
 
-## 📊 All Endpoints
+## All Endpoints
 
 | Method | Endpoint | Auth | Description |
 |---|---|---|---|
@@ -196,7 +196,7 @@ curl "http://localhost:8000/analyze/pharmaceuticals?format=markdown" \
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 | Variable | Default | Description |
 |---|---|---|
@@ -209,7 +209,7 @@ curl "http://localhost:8000/analyze/pharmaceuticals?format=markdown" \
 
 ---
 
-## 🧪 Example Sectors
+## Example Sectors
 
 ```
 pharmaceuticals    technology         agriculture
@@ -221,7 +221,7 @@ gems-and-jewellery electronics        logistics
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Request
@@ -256,7 +256,7 @@ JSON / Markdown Response
 
 ---
 
-## 🚀 Production Notes
+## Production Notes
 
 1. **Change `JWT_SECRET_KEY`** to a cryptographically random value:
    ```bash
@@ -274,6 +274,6 @@ JSON / Markdown Response
 
 ---
 
-## 📄 License
+## License
 
 MIT License - Free to use and modify.
